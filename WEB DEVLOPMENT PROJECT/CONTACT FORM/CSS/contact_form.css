@@ -1,0 +1,61 @@
+body{
+    padding: 25px;
+    background-color: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+fieldset{
+    background-image:url(../IMG/bluesky.jpg);
+    background-size: cover;
+    padding: 30px;
+    border: 3px solid rgba(0, 0, 0, 0.369);
+    border-radius: 20px;
+}  
+
+legend{
+    font-size: medium;
+    outline-color: black;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px rgb(247, 84, 39), 0 0 1em rgb(89, 249, 44), 0 0 0.2em rgb(94, 227, 163);
+    background-color: rgba(111, 215, 236, 0.27);
+}   
+
+input[type="text"],input[type="email"]{
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+}
+textarea{
+    width: 90%;
+    padding: 10px ;
+    margin:10px ;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+}
+input[type="radio"]{
+    margin: 20px;
+}
+
+input[type="submit"],input[type="reset"]{
+    padding: 7px;
+    border: 1.5px solid rgba(137, 43, 226, 0.506);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+h6{
+    text-align: center;
+    background: rgba(111, 215, 236, 0.27);
+    
+}
+br{
+    font-weight: 100;
+}
+
